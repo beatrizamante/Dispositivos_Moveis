@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { ScrollView, StyleSheet, TextInput, Button } from "react-native";
 
 export default function Feed() {
@@ -7,6 +7,10 @@ export default function Feed() {
     const handleLogin = () => {
         console.log(`Username ${username} and password ${password}`);
     }
+
+    useEffect(() => {
+
+    })
 
     return (
         <ScrollView>
