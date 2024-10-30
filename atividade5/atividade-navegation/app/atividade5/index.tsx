@@ -7,6 +7,9 @@ export default function index() {
     <View>
       <Text>This is an index</Text>
 
+      <Link href={{ pathname: "./list" }}>
+        <Text style={{ color: "blue" }}>Go to List</Text>
+      </Link>
 
       <StatusBar />
     </View>
