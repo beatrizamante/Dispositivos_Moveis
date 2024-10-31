@@ -12,7 +12,7 @@ type ScrollableProps = {
 export default function Scrollable({ children }: ScrollableProps) {
   return (
     <View>
-      <ScrollView>{children}</ScrollView>
+      <ScrollView style={styles.container}>{children}</ScrollView>
     </View>
   );
 }
@@ -20,5 +20,6 @@ export default function Scrollable({ children }: ScrollableProps) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: "#fff"
   },
 });
